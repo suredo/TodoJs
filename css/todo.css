@@ -1,0 +1,61 @@
+body{
+	background-color: gray;
+}
+.todo{
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	width: 50%;
+}
+.todo ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.todo-table{
+	border: 1px solid white;
+}
+.todo .tag-list{
+	margin: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 3fr);
+}
+.todo .tag-list .tag{
+	cursor: pointer;
+}
+.todo-table .input{
+	border-bottom: 1px solid white;
+}
+.todo-table .input form{
+	height: 30px;
+	display: grid;
+	grid-template-columns: 90% 10%;
+}
+.todo-table .input input{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.todo-table .input button{
+	border: 0;
+}
+.todo-table .todos{
+	text-align: left;
+}
+.todo-table .todos .delete{
+	color: red;
+	float: right;
+	cursor: pointer;
+}
+.todo-table .todos .todo-item{
+	cursor: pointer;
+}
+.todo-table .todos .done{
+	text-decoration: line-through red;
+}
+.todo-table .todos .todo-list li{
+	border-bottom: 1px solid white;
+}
+.todo-table .todos ul li:last-child{
+	border: none;
+}
